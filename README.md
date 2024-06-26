@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento para a Escola de Jovens Superdotados do Professor Xavier
-    Jaz aqui toda a documentação deste lindíssimo sistema.
-    O manual de intalação e do usuário seguem logo abaixo e o relatório do projeto está [aqui](relatorio.txt)
+Jaz aqui toda a documentação deste lindíssimo sistema.
+O manual de intalação e do usuário seguem logo abaixo e o relatório do projeto está [aqui](relatorio.txt)
 ## Manual de Instalação:
 
 Basta baixar todos os arquivos [deste repositório](aplicacao) e executar o arquivo "appTeste.py"
