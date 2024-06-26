@@ -1,0 +1,51 @@
+﻿Relatório - Sistema dos X-men
+
+
+Dia 27/05:
+        Primeiro dia que comecei a fazer o trabalho. Exigiu um pouco de trabalho para entender por onde começar, mas não diria que foi difícil. Decidi começar pela modelagem do banco de dados. 
+        Principais aprendizados: É melhor começar logo o projeto e “ir ajeitando” aos poucos do que tentar planejar cada detalhe minuciosamente e não fazer(obs.: mas a ausência total de planejamento só levaria à mais retrabalho, e na verdade, levou). Ou seja, buscar um equilíbrio entre planejar e executar é algo chave num projeto. O outro, mais técnico, foi aprender a instalar uma bomba chamada MySQL para depois descobrir que o SQLite só precisa de um “import sqlite3” para funcionar na máquina.
+        Zoeiragens à parte, foi bom relembrar conceitos de modelagem,como,por exemplo, relacionamento entre entidades, vistos em matérias anteriores.
+
+
+Dia 28/05:
+        O dia foi dedicado a criar o banco de dados, as tabelas e inserir os registros em cada uma utilizando a biblioteca sqlite3. Primeiro tentei criar funções em python que criem o banco, criem as tabelas e insiram os valores adequados apenas exigindo o nome do banco e das tabelas para o usuário, além das colunas e tipo de dado de cada tabela.
+Mas eu acreditava que iria criar o banco, as tabelas e inserir dados de uma só uma vez, então, tentei fazer tudo na mão mesmo( leia-se: Achei que ia conseguir fazer isso rápido, por isso fiz na mão, mas criei mais de 1234567654321 x 10^(123456787987452136) bancos e tabelas teste até dar certo…era melhor ter automatizado com funções mesmo. OBS.: Escrevi e saí correndo, quem pulou o número em negrito um SS tá me devendo). 
+        Dificuldade Técnica: pouca, no máximo uns erros de sintaxe por falta de atenção e aprender a usar a biblioteca sqlite3.
+        Dificuldade Emocional(contém ironia): Manter a sanidade mental, a vontade de viver e o bom senso enquanto programo sem tentar assassinar ninguém, inclusive a mim .
+        Aprendizados: Fazer CREATE TABLE e INSERT INTO é deveras CHATO Trabalhoso
+
+
+Dia 29/05:
+O dia foi dedicado a popular a tabela dos instrutores. Fui obrigado a aprender um jeito rápido de fazer isso de um jeito RAPIDÃO em python, porque eu não queria escrever 09876789 inserts. A maior dificuldade foi pesquisar as informações de sobre cada instrutor, porque eu não sei nada sobre X - Men.
+
+
+Dia 01/06:
+Dessa vez, fui inserir dados sobre cada equipe e seu instrutor, mais uma vez a dificuldade foi SABER quais são as equipes dos X - Men. Além disso, tentei usar maneiras de “ “ “ automatizar (evitar trabalho braçal - copia e cola) “ “ “ isso em python utilizando dicionários(HashMaps do Java) em que em um deles a chave era a equipe e o valor, o instrutor e em outro, a chave era o instrutor e o valor seu id( obtidos por meio de um select na tabela dos instrutores, construída no dia 29/05). Os principais aprendizados foram: O GPT não sabe nada sobre os X-Men, de acordo com um amigo meu viciado em quadrinhos ,que me ajudou porque eu não sei nada sobre X-Men, e como utilizar HashMaps, porque não vimos em Estruturas de Dados.
+
+
+DIA 02/06:
+Fui popular todas as outras tabelas. As tabelas relacionamento foram as mais difíceis pq tem que saber a lógica certinha dos joins. Foi o mais difícil até agora, tecnicamente falando. (Saber sobre os personagens, as equipes, etc foi bem pior). Aprendizados: Entender sobre cada tipo de Join, a importância do id em cada tabela e o prazer de ver algo dando certo quando você tenta até o final, mesmo que tenha dado errado 764324789633688 vezes.
+
+
+Dia 04/06:
+
+Dia dedicado a criar uma função em python para cadastrar alunos. A principal dificuldade foi validar os inputs (idade maior que 0, nome sem números,etc)
+
+
+Dia 05/06:
+Hora de testar a função cadastrada no dia anterior. As únicas dificuldades foram errinhos de lógica em consultas sql (trocar OR por AND)
+
+
+Dia 06/06:
+Parei de fazer o trabalho para focar nas provas de final de semestre e outras matérias
+
+
+Dia 26:06
+O trabalho é para amanhã e eu ainda preciso fazer a documentação e a interface gráfica.
+As funções que eu criei inicialmente não interagiam com o usuário por meio da GUI, apenas pelo terminal. Então, fiz tudo de novo do zero, praticamente
+Comecei o trabalho às 8 da noite da terça de 25/06, são 2 da manhã do outro dia e ainda não acabei (Tá sendo maneiro essa experiência de virar a noite…me sinto rebelde e cansado)
+Aprendizados: 
+Não deixe as coisas para última hora
+GUI é muito chato
+Documentar o código nas etapas anteriores ajudou muito a entender o que eu já tinha feito (mais de 3 semanas sem mexer no código…se não tivesse documentado seriam 3 dias seguidos só tentando entender que bulhufas eu fiz antes)
+Programar pode ser algo extremamente maçante e frustrante, mas quando o código roda, todo o estresse vale a pena.
