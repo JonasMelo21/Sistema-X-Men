@@ -3,7 +3,7 @@
     O manual de intalação e do usuário seguem logo abaixo e o relatório do projeto está [aqui](relatorio.txt)
 ## Manual de Instalação:
 
-Basta baixar [este repositório](aplicacao) e executar o arquivo "appTeste.py"
+Basta baixar todos os arquivos [deste repositório](aplicacao) e executar o arquivo "appTeste.py"
 
 ## Manual do Usuário e Funcionalidades Existentes:
 
